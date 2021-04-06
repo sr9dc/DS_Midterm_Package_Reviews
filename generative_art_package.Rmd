@@ -6,7 +6,6 @@ output:
     toc_depth: 4
     toc_float: true
     css: "style.css"
-
 ---
 
 ```{r setup, include=FALSE}
@@ -254,14 +253,4 @@ To advance this package, we'd like to see improved mathematical functionality (s
 [experiments in R](https://fronkonstin.com/)  
 [Katharina Brunner's portfolio](https://katharinabrunner.de/generativeart/)  
 [why love generative art?](https://www.artnome.com/news/2018/8/8/why-love-generative-art)  
-
-
-
-
-
-
-
-
-
-
 
