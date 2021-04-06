@@ -185,7 +185,7 @@ generativeart::generate_img(formula = my_formula,
 
 Generative art has been around since the term was coined in the 1960s, and over the years the creative process has had implementations across different languages and packages. 
 
-In the R language specifically, two packages of note are: 
+In R, two packages of note are: 
 
 * [jasmines](https://github.com/djnavarro/jasmines)
 * [mathart](https://github.com/marcusvolz/mathart)
@@ -203,7 +203,7 @@ In the R language specifically, two packages of note are:
 similarities | differences
 ------------- | -------------
 reproducibility and regeneration capabilities (`jasmines`'s `use_seed()` functionality can be simulated with `generativeart`'s `get_seed_from_logfile` and `regenerate_img`) | `ambient` library integration, allowing for greater color manipulation
-`ggplot` backbone | `dyplr` pipeline functionality 
+`ggplot` backbone | `dplyr` pipeline functionality 
 easy hyperparameter tuning | `jasmines` iterates on 1 image by a specified number of times, `generativeart` transforms a dot grid once
 accessible documentation | `generativeart` stores a log file of generated images and their respective hyperparams, a functionality not accesible in `jasmines` 
 
