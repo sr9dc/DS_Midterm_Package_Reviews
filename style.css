@@ -1,0 +1,79 @@
+body {
+	font-family: Archivo, Helvetica, sans-serif;
+	background-color: white;
+	color: #141A19;
+}
+
+h4 {
+	font-weight: 700;
+	color: #2C423F;
+}
+
+h3 {
+	font-weight: 700;
+	color: #2C423F;
+}
+
+.title {
+	color: #2C423F;
+}
+
+.tocify-item.list-group-item.active {
+	background-color: #2C423F;
+}
+
+.tocify-subheader.list-group {
+	color: #2C423F;
+}
+
+blockquote {
+	border-left-color: #FF4000;
+}
+
+
+.install {
+	background-color: white;
+	border-color: #80A68A;
+	border-width: 3px;
+}
+
+.hljs-string {
+	color: #FF4000;
+}
+
+table {
+	color: #141A19;
+}
+
+button {
+	height: 30px;
+	border-radius: 25px;
+	margin: 1px;
+	font-weight: 700;
+	color: white;
+	margin-top: 7px;
+}
+
+.viz {
+	border-color: #80A68A;
+	background-color: #80A68A;
+}
+
+.gen {
+	border-color: #FAAA8D;
+	background-color: #FAAA8D;
+}
+
+.regen {
+	border-color: #465249;
+	background-color: #465249;
+}
+
+a {
+	color:#80A68A;
+}
+
+
+.tab-content {
+	color: #141A19;
+}
