@@ -13,34 +13,34 @@
 
 
 
-<!-- GETTING STARTED -->
+<!-- ABOUT -->
 ## Topic
-For our Midterm Project we did an R package review on Generativeart by Katharina Brunner.
+For our Midterm Project we did an R package review on `generativeart` by Katharina Brunner. 
 
-. 
+There are 3 sections: Package Detail, Examples of Generation, and Summary. Check it out on [Izzy Shehan's RPubs page](https://rpubs.com/izzy-shehan/750493).
 
-We started by determining the split between commercial and non-commercial data, and then we calculated the base rate, assuming that 1 is the commercial label and -1 is the non-commercial label. 
+## Author
+The R package `generativeart` was created by Katharina Brunner, a German data analyst and software developer, to introduce human-independent randomness to creative processes.
 
-Following that initial step, we cleaned the data, removing columns that weren't relevant and that had greater than an absolute value of 0.7 in terms of variance to other features. 
+## Overview
 
-We then generated a 80-20 split of training and testing data given our data set, and used the k-Nearest Neighbor to classify commercials in the testing data set. 
+Generative art is the intercalation of controlled randomness into artistic systems; the package `generativeart` in R simplifies autonomous system creation by packaging data initialization and visualization processes into basic hyperparameters and generative functions.
 
-Using a k=3, we got that the:
-* Accuracy is 76.76%
-* Sensitivity is 86.73%
-* Specificity is 59% 
+`generativeart` allows for easy process iteration and image replication with structured output directories and log csvs (preserving the file name, seed, and formula of all generated images in an easily accessible and readable format).
 
-A main goal of the lab was to help make more convincing commercials that hold audiences attention- making the company's commercials seem more like actual TV shows. 
 
-We then ran the model with different odd numbers of k (between 1 to 21) using the KNN algorithm, and got that the most accurate and sensitive models were at k=7 and k=17. 
 
-As mentioned before, our results were that the k=3 method had an accuracy of 76.76%, and a sensitivity of 86.73%. The k=7 (optimal) method on the other hand had an accuracy of 77.87% and a sensitivity of 89.26% (our base rate was about 63.9% accurate, which is a marked improvement).
+<!-- GETTING STARTED -->
+## Getting Started
 
-Since our goal is to make commercials that are more like TV shows, it would be beneficial to observe when a commercial is classified as a false negative- basically when a TV clip is said not to be a commercial when it actually is (as explained before- this would be achieved by lowering the specificity value). A k=7 (optimal approach) compared to a k=3 results in a specificity reduction from 59% to about 57%. This is only a 2% reduction, so a greater magnitude of reduction is what we should be aiming for in our next analysis. 
+`generativeart` can be installed from github with devtool.
 
-So next time it will be better to focus solely on reducing the specificity value. This is probably the most relevant metric for creating the most convincing commercials that are perceived as non-commercials. 
+```
+devtools::install_github("cutterkom/generativeart")
+```
 
-Overall, we achieved the general goal of lowering the specificity using a k=7 model. 
+See an example tutorial and the rest of documentation on [Izzy Shehan's RPubs page](https://rpubs.com/izzy-shehan/750493).
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
