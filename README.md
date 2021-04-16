@@ -1,1 +1,1 @@
-# DS_Midterm_Package_Reviews
+# Generativeart R Package Overview
