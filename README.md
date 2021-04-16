@@ -66,7 +66,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Sai Rajuladevi: https://www.linkedin.com/in/sai-rajuladevi/
 
-Project Link: [https://github.com/sr9dc/DS_KNN_Lab_Group_6](https://github.com/sr9dc/DS_KNN_Lab_Group_6)
+Project Link: [https://github.com/sr9dc/DS_Midterm_Package_Reviews](https://github.com/sr9dc/DS_Midterm_Package_Reviews)
 
 
 
