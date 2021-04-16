@@ -26,7 +26,7 @@ The R package `generativeart` was created by Katharina Brunner, a German data an
 
 Generative art is the intercalation of controlled randomness into artistic systems; the package `generativeart` in R simplifies autonomous system creation by packaging data initialization and visualization processes into basic hyperparameters and generative functions.
 
-`generativeart` allows for easy process iteration and image replication with structured output directories and log csvs (preserving the file name, seed, and formula of all generated images in an easily accessible and readable format).
+`generativeart` allows for easy process iteration and image replication with structured output directories and log CSVs (preserving the file name, seed, and formula of all generated images in an easily accessible and readable format).
 
 
 
