@@ -39,7 +39,7 @@ Generative art is the intercalation of controlled randomness into artistic syste
 devtools::install_github("cutterkom/generativeart")
 ```
 
-See an example tutorial and the rest of documentation on [Izzy Shehan's RPubs page](https://rpubs.com/izzy-shehan/750493).
+See an example tutorial and the rest of documentation on the [RPubs page](https://rpubs.com/izzy-shehan/750493).
 
 
 <!-- CONTRIBUTING -->
