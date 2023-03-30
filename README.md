@@ -17,7 +17,7 @@
 ## Topic
 For our Midterm Project we did an R package review on `generativeart` by Katharina Brunner. 
 
-There are 3 sections: Package Detail, Examples of Generation, and Summary. Take a look at [Izzy Shehan's RPubs page](https://rpubs.com/izzy-shehan/750493).
+There are 3 sections: Package Detail, Examples of Generation, and Summary. Take a look at this [RPubs page](https://rpubs.com/izzy-shehan/750493).
 
 ## Author
 The R package `generativeart` was created by Katharina Brunner, a German data analyst and software developer, to introduce human-independent randomness to creative processes.
